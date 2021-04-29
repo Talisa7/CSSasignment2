@@ -20,7 +20,7 @@ section {
     display: flex;
     justify-content: center;
     color: white;
-    background-color: hsl(249, 10%, 26%);
+    background-color: hsl(248, 32%, 49%);
     margin-bottom: 45px;
     padding:5px ;
     border-radius: 10px;
@@ -105,13 +105,20 @@ aside {
         background-color: hsl(0, 100%, 74%);
     }
     .container{
+        grid-template-columns: 1fr;
         grid-template-areas: 
         "aside"
         "aside2"
         "section"
         "main";
-        justify-items: center;
-        align-items: center;
         width: 100%;
+        justify-content: space-evenly;
+    }
+    .main {
+        display: flex;
+        width: 100%;
+    }
+    .section {
+        padding-left: 15px;
     }
 }
