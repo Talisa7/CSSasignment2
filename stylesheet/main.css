@@ -103,6 +103,7 @@ aside {
 @media only screen and (max-width: 500px) {
     body { background-image: url(bg-intro-mobile.png);
         background-color: hsl(0, 100%, 74%);
+        margin: 2em;
     }
     .container{
         grid-template-columns: 1fr;
